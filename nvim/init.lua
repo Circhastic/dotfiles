@@ -241,17 +241,20 @@ require('lazy').setup({
 
   -- require 'kickstart.plugins.debug',
   -- require 'kickstart.plugins.lint',
-  -- require 'kickstart.plugins.autopairs',
   require 'plugins.alpha',
-  require 'plugins.treesitter',
-  require 'plugins.colortheme',
+  require 'plugins.autocompletion', -- adds gitsigns recommend keymaps
+  require 'plugins.autopairs',
   require 'plugins.bufferline',
+  require 'plugins.colortheme',
+  require 'plugins.gitsigns', -- adds gitsigns recommend keymaps
   require 'plugins.lsp',
   require 'plugins.telescope',
   require 'plugins.neo-tree',
-  require 'plugins.gitsigns', -- adds gitsigns recommend keymaps
-  require 'plugins.autocompletion', -- adds gitsigns recommend keymaps
+  require 'plugins.treesitter',
+  require 'plugins.toggleterm',
   require 'plugins.indent-blankline',
+  require 'plugins.copilot',
+  -- require 'plugins.presence',
 }, {
   ui = {
     -- If you are using a Nerd Font: set icons to an empty table which will use the
@@ -275,4 +278,4 @@ require('lazy').setup({
 })
 
 -- The line beneath this is called `modeline`. See `:help modeline`
--- vim: ts=2 sts=2 sw=2 et
+-- vim: ts=2 sts=2 sw=2
