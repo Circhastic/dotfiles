@@ -1,9 +1,9 @@
 # dotfiles
 
-my_dotfiles
-
+Contents
+```
+/
 ├── hypr
-
 ├── nvim
-
 └── zsh
+```
