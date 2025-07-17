@@ -69,6 +69,6 @@ return {
     end
 
     -- Key mapping to toggle transparency
-    vim.keymap.set('n', '<leader>bg', toggle_transparency, { noremap = true, silent = true })
+    vim.keymap.set('n', '<leader>bg', toggle_transparency, { noremap = true, silent = true, desc = 'Toggle Background Transparency' })
   end,
 }
