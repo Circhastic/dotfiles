@@ -6,4 +6,5 @@ Contents
 ├── hypr
 ├── nvim
 └── zsh
+└── tmux
 ```
